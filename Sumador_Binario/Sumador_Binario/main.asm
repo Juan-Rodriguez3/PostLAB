@@ -54,14 +54,14 @@ SETUP:
 
 
 	// Guardar estado actual de los botones en R17 y el valor de la salida
-	LDI	R17, 0xFF		// 0b11111111
+	LDI	R17, 0x7F		// 0b11111111
 	LDI R18, 0x00		//Salida del primer contador y el carry
 	LDI R19, 0x00		//Salida del segundo contador
 	LDI	R20, 0x00		//Salida del sumador	
 
 //LOOP
 LOOP:
-	IN		R16,PINC	//Leer PUERTO D
+SBR		R18,	(1 << 7)	//Enciende unicamente el bit 7	IN		R16,PINC	//Leer PUERTO D
 	CP		R17,R16		//Comparar el estado anterior de los botones con el estado actual.
 	BREQ	LOOP		//Si son iguales regresa al inicio.
 	CALL	DELAY
@@ -156,6 +156,6 @@ SUMA:
 	SBR		R18,	(1 << 7)	//Enciende unicamente el bit 7
 	SBRC	R20,	4		//Salta si el bit 4 esta clear
 	SBR		R19,	(1 << 4)	//Enciende unicamente el bit 4 del puerto B
-	OUT		PORTB	R19
-	OUT		PORTD	R18
+	OUT		PORTB,	R19
+	OUT		PORTD,	R18
 	RET

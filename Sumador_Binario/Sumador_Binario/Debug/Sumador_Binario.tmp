@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\Debug\Sumador_Binario.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Sumador_Binario.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Sumador_Binario.map</FILE>
+  <FILE>Sumador_Binario.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <SETUP><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>25</LINE></SETUP>
+  <LOOP><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>63</LINE></LOOP>
+  <DELAY><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>86</LINE></DELAY>
+  <AUTM1><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>95</LINE></AUTM1>
+  <DECM1><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>107</LINE></DECM1>
+  <AUTM2><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>120</LINE></AUTM2>
+  <DECM2><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>132</LINE></DECM2>
+  <SUMA><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>145</LINE></SUMA>
+  <LOOP_DELAY><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>88</LINE></LOOP_DELAY>
+  <REINICIO1><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>102</LINE></REINICIO1>
+  <REINICIO2><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>114</LINE></REINICIO2>
+  <REINICIO3><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>127</LINE></REINICIO3>
+  <REINICIO4><FILE>C:\Users\josef\OneDrive\Documentos\Pepito\PostLAB\Sumador_Binario\Sumador_Binario\main.asm</FILE><LINE>139</LINE></REINICIO4>
+ </LABELS>
+</ASSEMBLER_INFO>
